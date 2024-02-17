@@ -1,0 +1,333 @@
+/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* ADDED NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+.about {
+  text-decoration: underline;
+
+  color: #fff;
+}
+
+.proje {
+  color: #fff;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header {
+  background-image: url(Desktop_Backgrounds_1920x1200_6\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.headercon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+}
+
+.header h1 {
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 13px;
+  margin-bottom: 42px;
+}
+
+.header p {
+  font-family: Source Sans Prom, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 24px;
+}
+
+/* MAIN PART */
+/* SECTION1 */
+
+/* BOXES ADDES */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes p {
+  width: 400px;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.section-1main {
+  width: 983px;
+}
+
+.section-1 h1 {
+  color: #464547;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 48px;
+}
+
+.section-1p {
+  font-family: Source Sans Pro, sans-serif;
+  color: #666;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.btn-1 {
+  border-radius: 18px;
+  background: #55c2d8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+  font-family: Oswald Regular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  margin-top: 21px;
+}
+
+/* 
+SECTION2 BEGIN */
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(Mask\ Group.png);
+  color: #fff;
+}
+
+.section-2main {
+  width: 500px;
+}
+
+.section-2 h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 48px;
+  margin-bottom: 53px;
+}
+
+.section-2 h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  width: 350px;
+}
+
+.display {
+  background-color: #39c2d7;
+  border: none;
+  border-radius: 50%;
+  padding: 1px 40px;
+  margin-bottom: 70px;
+}
+
+.display span {
+  font-size: 90px;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+/* 
+FOOTER */
+footer {
+  background: #464547;
+}
+
+.footermain {
+  display: flex;
+  padding: 35px 145px 70px 145px;
+  justify-content: space-around;
+}
+.logofooter {
+  display: flex;
+  margin-bottom: 12px;
+}
+.logofooter img {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 14px;
+  align-items: center;
+}
+.logofooter h4 {
+  color: #fff;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+.address {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.project {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.street {
+  font-size: 16px;
+}
+.gmail {
+  font-size: 20px;
+  margin-top: 16px;
+}
+.navbar .fa-solid {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+.boxes {
+display: flex;
+justify-content: center;
+gap:15px;
+}
+
+.boxes p{
+  width: 350px;
+}
+ .footermain {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 145px;
+    align-items: center;
+    justify-content: center;
+  }
+  .project {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .street {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* --------------------MOBIL VERSION ------------------------*/
+@media only screen and (max-width: 768px) {
+  .section-1main h1 {
+    color: #464547;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .footermain {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 145px;
+    align-items: center;
+    justify-content: center;
+  }
+  .project {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .street {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar .fa-solid {
+    display: block;
+    width: 22px;
+font-size:30px;
+    border: 3px;
+    color: #ffffff;
+    margin-left:200px;
+  }
+}
+
